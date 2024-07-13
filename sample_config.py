@@ -4,12 +4,12 @@ class Config(object):
     # get a token from @BotFather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("APP_ID", 29489981))
+    API_HASH = os.environ.get("API_HASH", d06d320353dd369c577b33be893c622b)
     # Update channel for Force Subscribe
     UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
     # log channel
-    #LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "")
+    #LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002153242485")
     # Get these values from my.telegram.org
     CHAT_ID = os.environ.get("CHAT_ID", "")
     # Array to store users who are authorized to use the bot
